@@ -177,9 +177,8 @@ void afficher_essaim(struct Drone *essaim, int n)
     ligne('-',62);
 }
 
-/* ============================================================
- *  DISTANCE EUCLIDIENNE 3D
- * ============================================================ */
+//DISTANCE EUCLIDIENNE 3D
+ 
 float distance_euclidienne(const struct Drone *a, const struct Drone *b)
 {
     float dx = a->x - b->x;
